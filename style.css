@@ -510,7 +510,7 @@ body {
     height: 20vh;
   }
   #sm-banner .banner-box {
-    min-width: 100%;
+    min-width: 70%;
     height: 30vh;
   }
   #banner3 {
@@ -556,6 +556,7 @@ body {
   }
   #sm-banner .banner-box {
     height: 40vh;
+    min-width: 70%;
   }
   #sm-banner .banner-box2 {
     margin-top: 20px;
