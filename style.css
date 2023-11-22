@@ -496,6 +496,131 @@ body {
   line-height: 25px;
 }
 
+/* shop page */
+#page-header {
+  background-image: url(img/banner/b1.jpg);
+  height: 30vh;
+  width: 100%;
+  color: white;
+
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 14px;
+}
+
+#pagination {
+  text-align: center;
+}
+#pagination a {
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+}
+/* single product */
+#cart table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+#cart table img {
+  width: 70px;
+}
+#cart table td:nth-child(1) {
+  width: 100px;
+  text-align: center;
+}
+#cart table td:nth-child(2) {
+  width: 150px;
+  text-align: center;
+}
+#cart table td:nth-child(3) {
+  width: 250px;
+  text-align: center;
+}
+#cart table td:nth-child(4) {
+  width: 150px;
+  text-align: center;
+}
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+  width: 150px;
+  text-align: center;
+}
+#cart table td:nth-child(5) input {
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+}
+#cart {
+  overflow-x: auto;
+}
+#cart table thead {
+  border: 1px solid #465b52;
+  border-left: none;
+  border-right: none;
+}
+#cart table thead td {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 18px 0;
+}
+#cart table tbody tr td {
+  padding-top: 15px;
+}
+#cart table tbody td {
+  font-size: 13px;
+}
+#cart-add {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#cupon {
+  width: 50%;
+  margin-bottom: 30px;
+}
+#cupon h3,
+#subtotal h3 {
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+#cupon input {
+  padding: 10px 20px;
+  outline: none;
+  width: 60%;
+  margin-right: 10px;
+  border: 1px solid #e2e9e1;
+}
+#cupon button,
+#subtotal button {
+  background-color: #088178;
+  color: white;
+  padding: 12px 20px;
+}
+#subtotal {
+  width: 40%;
+  margin-bottom: 30px;
+  border: 1px solid #e1e9e1;
+  padding: 30px;
+}
+#subtotal table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#subtotal table td {
+  width: 50%;
+  border: 1px solid #e2e9e1;
+  padding: 10px;
+  font-size: 13px;
+}
 @media screen and (max-width: 799px) {
   .section-p1 {
     padding: 40px 40px;
@@ -576,7 +701,6 @@ body {
     width: 70%;
   }
 }
-
 @media screen and (max-width: 477px) {
   #header {
     padding: 10px 30px;
@@ -641,32 +765,14 @@ body {
   #prodetails .single-pro-details {
     width: 100%;
   }
+  #cart-add {
+    flex-direction: column;
+  }
+  #cupon {
+    width: 100%;
+  }
+  #subtotal {
+    width: 100%;
+    padding: 20px;
+  }
 }
-
-/* shop page */
-#page-header {
-  background-image: url(img/banner/b1.jpg);
-  height: 30vh;
-  width: 100%;
-  color: white;
-
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 14px;
-}
-
-#pagination {
-  text-align: center;
-}
-#pagination a {
-  text-decoration: none;
-  background-color: #088178;
-  padding: 15px 20px;
-  border-radius: 4px;
-  color: white;
-  font-weight: 600;
-}
-/* single product */
